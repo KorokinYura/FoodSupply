@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-4">
+
+    <input type="text" [(ngModel)]="name" class="form-control" placeholder="{{'mainMenu.Name' | translate}}" /><br />
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let g of goods; let i = index">
+        <!--<input type="checkbox" />-->
+        <label>&nbsp;&nbsp;{{goods[i].name}}</label>&nbsp;&nbsp;
+        <input type="number" [(ngModel)]="goods[i].quantity" value="{{goods[i].quantity}}" />
+        <hr />
+        <label>{{'mainMenu.Description' | translate}}:&nbsp;{{goods[i].description}}</label>
+      </li>
+    </ul>
+    <br />
+
+    <div>
+      <input type="button" (click)="createSet()" class="btn btn-default" value="{{'mainMenu.Create' | translate}}" />
+    </div>
+  </div>
+</div>

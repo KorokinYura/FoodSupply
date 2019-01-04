@@ -1,0 +1,166 @@
+2018-12-20T18:48:11.3610332+02:00  [INF] Generating inbuilt accounts (d5983574)
+2018-12-20T18:48:12.2526596+02:00  [INF] Inbuilt account generation completed (a663d88d)
+2018-12-20T18:48:12.2618140+02:00  [INF] Seeding initial data (13b66d8a)
+2018-12-20T18:48:12.5798893+02:00  [INF] Seeding initial data completed (dcd778dd)
+2018-12-20T18:51:20.6775102+02:00 0HLJ6JCTI46TF:00000004 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin@ebenmonney.com\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-20T18:51:20.7147004+02:00 0HLJ6JCTI46TF:00000004 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-20T18:51:20.7151931+02:00 0HLJ6JCTI46TF:00000004 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-20T18:51:20.7253361+02:00 0HLJ6JCTI46TF:00000004 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-20T18:51:21.5947071+02:00 0HLJ6JCTI46TF:00000004 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "5298166e-4d71-42ee-944d-4432c1828f73". (b5fe4ad7)
+2018-12-20T18:51:21.6665785+02:00 0HLJ6JCTI46TF:00000004 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:51:21.6667824+02:00 0HLJ6JCTI46TF:00000004 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:51:21.6668564+02:00 0HLJ6JCTI46TF:00000004 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:51:21.6669002+02:00 0HLJ6JCTI46TF:00000004 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:51:21.8260570+02:00 0HLJ6JCTI46TF:00000004 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-20T18:51:21.8831952+02:00 0HLJ6JCTI46TF:00000004 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-20T18:51:38.7971754+02:00 0HLJ6JCTI46TE:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:51:38.7971758+02:00 0HLJ6JCTI46TH:00000004 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:51:43.7927532+02:00 0HLJ6JCTI46TI:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:51:43.7931983+02:00 0HLJ6JCTI46TI:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:51:43.7982349+02:00 0HLJ6JCTI46TF:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:51:43.7984365+02:00 0HLJ6JCTI46TF:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:52:09.4363425+02:00 0HLJ6JCTI46TE:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:52:09.6928456+02:00 0HLJ6JCTI46TH:00000005 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"grant_type\": \"refresh_token\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-20T18:52:09.6935646+02:00 0HLJ6JCTI46TH:00000005 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-20T18:52:09.6936352+02:00 0HLJ6JCTI46TH:00000005 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-20T18:52:10.1049919+02:00 0HLJ6JCTI46TH:00000005 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-20T18:52:10.1144389+02:00 0HLJ6JCTI46TH:00000005 [DBG] AuthenticationScheme: "ASOS" was successfully authenticated. (1805f3b3)
+2018-12-20T18:52:10.1781164+02:00 0HLJ6JCTI46TH:00000005 [INF] The expiration date of the refresh token '"a8f96bba-eb21-4354-80e7-5efb1b5451d3"' was automatically updated: 01/03/2019 16:52:10 +00:00. (3e1903c1)
+2018-12-20T18:52:10.1787704+02:00 0HLJ6JCTI46TH:00000005 [DBG] The access token scopes will be limited to the scopes requested by the client application: "openid, email, phone, profile, offline_access, roles". (da314d7b)
+2018-12-20T18:52:10.1790162+02:00 0HLJ6JCTI46TH:00000005 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:10.1791076+02:00 0HLJ6JCTI46TH:00000005 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:10.1791955+02:00 0HLJ6JCTI46TH:00000005 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:10.1792605+02:00 0HLJ6JCTI46TH:00000005 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:10.1796230+02:00 0HLJ6JCTI46TH:00000005 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-20T18:52:10.1800847+02:00 0HLJ6JCTI46TH:00000005 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-20T18:52:10.1971627+02:00 0HLJ6JCTI46TI:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:52:10.1977050+02:00 0HLJ6JCTI46TF:00000007 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:52:10.1979527+02:00 0HLJ6JCTI46TF:00000007 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:52:30.6137949+02:00 0HLJ6JCTI46TE:00000007 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin@gmail.com\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-20T18:52:30.6142243+02:00 0HLJ6JCTI46TE:00000007 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-20T18:52:30.6143160+02:00 0HLJ6JCTI46TE:00000007 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-20T18:52:30.6143696+02:00 0HLJ6JCTI46TE:00000007 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-20T18:52:30.6609128+02:00 0HLJ6JCTI46TE:00000007 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "25c9dab5-0917-4b73-bb0c-c89f14544f36". (b5fe4ad7)
+2018-12-20T18:52:30.6611035+02:00 0HLJ6JCTI46TE:00000007 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:30.6611938+02:00 0HLJ6JCTI46TE:00000007 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:30.6612395+02:00 0HLJ6JCTI46TE:00000007 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:30.6612806+02:00 0HLJ6JCTI46TE:00000007 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:52:30.7241550+02:00 0HLJ6JCTI46TE:00000007 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-20T18:52:30.7245390+02:00 0HLJ6JCTI46TE:00000007 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-20T18:55:53.2257867+02:00 0HLJ6JCTI46TK:00000001 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"user@ebenmonney.com\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-20T18:55:53.2259053+02:00 0HLJ6JCTI46TK:00000001 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-20T18:55:53.2259532+02:00 0HLJ6JCTI46TK:00000001 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-20T18:55:53.2259951+02:00 0HLJ6JCTI46TK:00000001 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-20T18:55:53.2886306+02:00 0HLJ6JCTI46TK:00000001 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "3d6e15df-1094-4b89-b717-29c15d4c2bea". (b5fe4ad7)
+2018-12-20T18:55:53.2888118+02:00 0HLJ6JCTI46TK:00000001 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:55:53.2888632+02:00 0HLJ6JCTI46TK:00000001 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:55:53.2889044+02:00 0HLJ6JCTI46TK:00000001 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:55:53.2889429+02:00 0HLJ6JCTI46TK:00000001 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:55:53.3470480+02:00 0HLJ6JCTI46TK:00000001 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-20T18:55:53.3473750+02:00 0HLJ6JCTI46TK:00000001 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-20T18:55:56.8150150+02:00 0HLJ6JCTI46TK:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:56:00.6234720+02:00 0HLJ6JCTI46TK:00000003 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:56:03.7420387+02:00 0HLJ6JCTI46TK:00000004 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:56:19.4466452+02:00 0HLJ6JCTI46TK:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:56:39.5593799+02:00 0HLJ6JCTI46TK:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T18:56:39.6173695+02:00 0HLJ6JCTI46TK:00000007 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"grant_type\": \"refresh_token\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-20T18:56:39.6174790+02:00 0HLJ6JCTI46TK:00000007 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-20T18:56:39.6175085+02:00 0HLJ6JCTI46TK:00000007 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-20T18:56:39.6234373+02:00 0HLJ6JCTI46TK:00000007 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-20T18:56:39.6242743+02:00 0HLJ6JCTI46TK:00000007 [DBG] AuthenticationScheme: "ASOS" was successfully authenticated. (1805f3b3)
+2018-12-20T18:56:39.6372412+02:00 0HLJ6JCTI46TK:00000007 [INF] The expiration date of the refresh token '"73b84a46-2719-4eb1-8012-3c14cbb99a7a"' was automatically updated: 01/03/2019 16:56:39 +00:00. (3e1903c1)
+2018-12-20T18:56:39.6375565+02:00 0HLJ6JCTI46TK:00000007 [DBG] The access token scopes will be limited to the scopes requested by the client application: "openid, email, phone, profile, offline_access, roles". (da314d7b)
+2018-12-20T18:56:39.6377022+02:00 0HLJ6JCTI46TK:00000007 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:56:39.6377532+02:00 0HLJ6JCTI46TK:00000007 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:56:39.6377936+02:00 0HLJ6JCTI46TK:00000007 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:56:39.6378385+02:00 0HLJ6JCTI46TK:00000007 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T18:56:39.6380908+02:00 0HLJ6JCTI46TK:00000007 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-20T18:56:39.6383842+02:00 0HLJ6JCTI46TK:00000007 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-20T18:56:39.6954676+02:00 0HLJ6JCTI46TK:00000008 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:01.2516382+02:00 0HLJ6JCTI46TS:00000002 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin@gmail.com\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-20T19:19:01.2518270+02:00 0HLJ6JCTI46TS:00000002 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-20T19:19:01.2519577+02:00 0HLJ6JCTI46TS:00000002 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-20T19:19:01.2521185+02:00 0HLJ6JCTI46TS:00000002 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-20T19:19:01.2834501+02:00 0HLJ6JCTI46TS:00000002 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "a7addcd8-2ac2-4523-8899-c29c334b0041". (b5fe4ad7)
+2018-12-20T19:19:01.2836978+02:00 0HLJ6JCTI46TS:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T19:19:01.2838968+02:00 0HLJ6JCTI46TS:00000002 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T19:19:01.2841037+02:00 0HLJ6JCTI46TS:00000002 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T19:19:01.2842385+02:00 0HLJ6JCTI46TS:00000002 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-20T19:19:01.3362948+02:00 0HLJ6JCTI46TS:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-20T19:19:01.3368314+02:00 0HLJ6JCTI46TS:00000002 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-20T19:19:06.9953072+02:00 0HLJ6JCTI46TS:00000004 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:06.9968006+02:00 0HLJ6JCTI46TU:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:06.9969380+02:00 0HLJ6JCTI46TU:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:08.7449937+02:00 0HLJ6JCTI46TT:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:08.7456348+02:00 0HLJ6JCTI46TT:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:08.7465943+02:00 0HLJ6JCTI46TR:00000003 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:19:08.7467434+02:00 0HLJ6JCTI46TR:00000003 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:22.1775580+02:00 0HLJ6JCTI46U0:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:22.1777290+02:00 0HLJ6JCTI46U0:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:22.1814085+02:00 0HLJ6JCTI46TV:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:22.1816502+02:00 0HLJ6JCTI46TV:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:56.9205734+02:00 0HLJ6JCTI46U0:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:56.9205655+02:00 0HLJ6JCTI46TV:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-20T19:24:56.9206852+02:00 0HLJ6JCTI46TV:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)

@@ -1,0 +1,197 @@
+{
+  "app": {
+    "Welcome": "Ласкаво просимо",
+    "Notifications": "Сповіщення",
+    "New": "Новини"
+  },
+  "mainMenu": {
+    "Appointments": "Призначення",
+    "Customers": "Клієнти",
+    "Products": "Продукти",
+    "Orders": "Замовлення",
+    "About": "Про нас",
+    "Logout": "Вийти",
+    "Name": "Ім'я",
+    "Description": "Опис",
+    "Price": "Ціна",
+    "Supplier": "Постачальник",
+    "Create": "Створити",
+    "Menu": "Меню",
+    "MakeAnOrder": "Зробити заказ",
+    "CreateSet": "Створити набір",
+    "AddGoods": "Додати товар",
+
+    "Set": "Набір",
+    "DateOfReceiving": "Дата отримання"
+  },
+  "pageHeader": {
+    "Main": "Головна",
+    "Dashboard": "Головна",
+    "Customers": "Клієнти",
+    "Products": "Продукти",
+    "Orders": "Замовлення",
+    "NotFound": "Не знайдено",
+    "About": "Про нас",
+    "Settings": "Налаштування",
+    "AboutGreeting": "Ласкаво просимо в FoodSupply",
+    "AboutDescription": "Ця програма створена за допомогою ASP.NET Core 2.1 на стороні сервера та Angular 7 на стороні клієнта"
+  },
+  "home": {
+    "NoWidgets1": "У вас немає відображених віджетів. Goto",
+    "NoWidgets2": "для налаштування доступних віджетів",
+    "StatisticsTitle": "Деякі важливі матеріали"
+  },
+  "notFound": {
+    "404": "404",
+    "pageNotFound": "Сторінка, яку ви шукаєте, не існує",
+    "backToHome": "Повернутися додому"
+  },
+  "settings": {
+    "tab": {
+      "Profile": "Профіль",
+      "Preferences": "Налаштування",
+      "Users": "Користувачі",
+      "Roles": "Ролі"
+    },
+    "header": {
+      "UserProfile": "Профіль користувача",
+      "UserPreferences": "Налаштування користувача",
+      "UserDepartments": "Відділи користувача",
+      "UsersManagements": "Управління користувачами",
+      "RolesManagement": "Управління ролями"
+    }
+  },
+  "preferences": {
+    "ReloadPreferences": "Перезавантажити налаштування:",
+    "ReloadPreferencesHint": "Завантажити налаштування за умовчанням (місцеві зміни відкидаються)",
+    "Language": "Мова:",
+    "English": "Англійська",
+    "Ukrainian": "Українська",
+    "French": "Французька",
+    "German": "Німецька",
+    "Portuguese": "Португальська",
+    "Arabic": "Арабська",
+    "Korean": "Корейська",
+    "LanguageHint": "Оберіть бажану мову для свого акаунту",
+    "HomePage": "Домашня сторінка:",
+    "Dashboard": "Головна",
+    "Customers": "Клієнти",
+    "Products": "Продукти",
+    "Orders": "Замовлення",
+    "About": "Про нас",
+    "Settings": "Налаштування",
+    "HomePageHint": "Оберіть сторінку за умовчанням, куди переходити при логіні",
+    "Theme": "Тема:",
+    "DefaultColor": "<span class='default-theme-option'>За замовчуванням</span>",
+    "RedColor": "<span class='red-theme-option'>Червоний</span>",
+    "OrangeColor": "<span class='orange-theme-option'>Помаранчевий</span>",
+    "GreenColor": "<span class='green-theme-option'>Зелений</span>",
+    "GrayColor": "<span class='gray-theme-option'>Сірий</span>",
+    "BlackColor": "<span class='black-theme-option'>Чорний</span>",
+    "ThemeHint": "Виберіть кольорову тему за умовчанням для свого облікового запису",
+    "DashboardStatistics": "Статистика панелі інструментів:",
+    "DashboardStatisticsHint": "Показати демонстраційний віджет графіка на інформаційній панелі",
+    "DashboardNotifications": "Сповіщення панелі інструментів:",
+    "DashboardNotificationsHint": "Показувати сповіщення про додатки на інформаційній панелі",
+    "DashboardTodo": "Інформаційна панель Todo:",
+    "DashboardTodoHint": "Відображає демонстраційний демонстраційний додаток на панелі інструментів",
+    "DashboardBanner": "Банер для інформаційної панелі:",
+    "DashboardBannerHint": "Показувати демонстраційний банер віджет інформації на панелі інструментів",
+    "ResetDefault": "Скинути за замовчуванням",
+    "SetDefault": "Встановити за замовчуванням"
+  },
+  "users": {
+    "management": {
+      "Search": "Пошук користувача...",
+      "NewUser": "Новий користувач",
+      "Edit": "Редагувати",
+      "Delete": "Видалити",
+      "EditUser": "Редагувати користувача \"{{name}}\"",
+      "Title": "Назва",
+      "UserName": "Ім'я користувача",
+      "FullName": "Повне ім'я",
+      "Email": "Електронна пошта",
+      "Roles": "Ролі",
+      "PhoneNumber": "Номер телефону"
+    },
+    "editor": {
+      "JobTitle": "Назва роботи: ",
+      "UserName": "Ім'я користувача:",
+      "UserNameRequired": "Потрібно ввести ім'я користувача (мінімум 2 і максимум 200 символів)",
+      "Password": "Пароль:",
+      "PasswordHint": "Ваш пароль потрібний для зміни імені користувача",
+      "CurrentPasswordRequired": "Потрібен поточний пароль",
+      "Email": "Електронна пошта:",
+      "EmailRequired": "Потрібна адреса електронної пошти (не більше 200 символів)",
+      "InvalidEmail": "Зазначена електронна адреса недійсна",
+      "ChangePassword": "Змінити пароль",
+      "CurrentPassword": "Поточний пароль:",
+      "NewPassword": "Новий пароль:",
+      "NewPasswordRequired": "Потрібен новий пароль (мінімум 6 символів)",
+      "ConfirmPassword": "Підтвердити пароль:",
+      "ConfirmationPasswordRequired": "Потрібен пароль підтвердження",
+      "PasswordMismatch": "Новий пароль і пароль підтвердження не збігаються",
+      "Roles": "Ролі:",
+      "FullName": " Повне ім'я:",
+      "RoleRequired": " Потрібна роль",
+      "PhoneNumber": "Телефон #:",
+      "Enabled": "Увімкнено",
+      "Unblock": "Розблокувати",
+      "Close": "Закрити",
+      "Edit": "Редагувати",
+      "Cancel": "Скасувати",
+      "Save": "Зберегти",
+      "Saving": "Збереження..."
+    }
+  },
+  "roles": {
+    "management": {
+      "Search": "Пошук ролі...",
+      "NewRole": "Нова роль",
+      "Edit": "Редагувати",
+      "Details": "Деталі",
+      "Delete": "Видалити",
+      "RoleDetails": "Подробиці ролі \"{{name}}\"",
+      "EditRole": "Редагувати роль \"{{name}}\"",
+      "Name": "Ім'я",
+      "Description": "Опис",
+      "Users": "Користувачі"
+    },
+    "editor": {
+      "Name": "Ім'я:",
+      "Description": "Опис:",
+      "RoleNameRequired": "Необхідно вказати назву ролі (мінімум 2 і максимум 200 символів)",
+      "SelectAll": "Вибрати все",
+      "SelectNone": "Виберіть нічого",
+      "Close": "Закрити",
+      "Cancel": "Скасувати",
+      "Save": "Зберегти",
+      "Saving": "Збереження..."
+    }
+  },
+  "notifications": {
+    "Delete": "Видалити сповіщення",
+    "Pin": "Сповіщення про контакт",
+    "Date": "Дата",
+    "Notification": "Повідомлення"
+  },
+  "todoDemo": {
+    "management": {
+      "Search": "Пошук завдання...",
+      "HideCompleted": "Приховати завершено",
+      "AddTask": "Додати завдання",
+      "Delete": "Видалити завдання",
+      "Important": "Позначити як важливе",
+      "Task": "Завдання",
+      "Description": "Опис"
+    },
+    "editor": {
+      "NewTask": "Нова задача",
+      "Name": "Ім'я",
+      "TaskNameRequired": "Потрібно вказати назву завдання",
+      "Description": "Опис",
+      "Important": "Позначити як важливе",
+      "AddTask": "Додати завдання"
+    }
+  }
+}

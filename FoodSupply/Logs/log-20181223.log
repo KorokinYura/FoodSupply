@@ -1,0 +1,58 @@
+2018-12-23T15:47:30.9804074+02:00 0HLJ8QDIOMV5M:00000001 [INF] "Bearer" was not authenticated. Failure message: "Authentication failed because the access token was expired." (48071232)
+2018-12-23T15:47:31.0500889+02:00 0HLJ8QDIOMV5M:00000001 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2018-12-23T15:47:31.3208771+02:00 0HLJ8QDIOMV5M:00000002 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"grant_type\": \"refresh_token\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-23T15:47:31.3543229+02:00 0HLJ8QDIOMV5M:00000002 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-23T15:47:31.3545592+02:00 0HLJ8QDIOMV5M:00000002 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-23T15:47:35.3838112+02:00 0HLJ8QDIOMV5M:00000002 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-23T15:47:35.5452292+02:00 0HLJ8QDIOMV5N:00000001 [INF] "Bearer" was not authenticated. Failure message: "Authentication failed because the access token was expired." (48071232)
+2018-12-23T15:47:35.5466342+02:00 0HLJ8QDIOMV5N:00000001 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2018-12-23T15:47:35.5472878+02:00 0HLJ8QDIOMV5M:00000002 [DBG] AuthenticationScheme: "ASOS" was successfully authenticated. (1805f3b3)
+2018-12-23T15:47:36.2335230+02:00 0HLJ8QDIOMV5M:00000002 [INF] The expiration date of the refresh token '"45dd4c56-3422-4ac3-acfa-0682276c0d22"' was automatically updated: 01/06/2019 13:47:35 +00:00. (3e1903c1)
+2018-12-23T15:47:36.2453333+02:00 0HLJ8QDIOMV5M:00000002 [DBG] The access token scopes will be limited to the scopes requested by the client application: "openid, email, phone, profile, offline_access, roles". (da314d7b)
+2018-12-23T15:47:36.2570180+02:00 0HLJ8QDIOMV5M:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T15:47:36.2571535+02:00 0HLJ8QDIOMV5M:00000002 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T15:47:36.2572007+02:00 0HLJ8QDIOMV5M:00000002 [DBG] '"configuration"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T15:47:36.2572793+02:00 0HLJ8QDIOMV5M:00000002 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T15:47:36.2573178+02:00 0HLJ8QDIOMV5M:00000002 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T15:47:36.2918174+02:00 0HLJ8QDIOMV5M:00000002 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-23T15:47:36.3257712+02:00 0HLJ8QDIOMV5M:00000002 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-23T15:47:36.3772091+02:00 0HLJ8QDIOMV5N:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T15:47:36.6181096+02:00 0HLJ8QDIOMV5M:00000003 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T16:22:47.0642188+02:00 0HLJ8QDIOMV8E:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T16:23:03.3458174+02:00 0HLJ8QDIOMV89:00000007 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T16:23:05.4114738+02:00 0HLJ8QDIOMV8F:00000003 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"grant_type\": \"refresh_token\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2018-12-23T16:23:05.4117204+02:00 0HLJ8QDIOMV8F:00000003 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2018-12-23T16:23:05.4119681+02:00 0HLJ8QDIOMV8F:00000003 [INF] The token request was successfully validated. (d7e51e65)
+2018-12-23T16:23:05.5148442+02:00 0HLJ8QDIOMV8F:00000003 [DBG] The default token request handling was skipped from user code. (72afae05)
+2018-12-23T16:23:05.5162514+02:00 0HLJ8QDIOMV8F:00000003 [DBG] AuthenticationScheme: "ASOS" was successfully authenticated. (1805f3b3)
+2018-12-23T16:23:05.5333237+02:00 0HLJ8QDIOMV8F:00000003 [INF] The expiration date of the refresh token '"45dd4c56-3422-4ac3-acfa-0682276c0d22"' was automatically updated: 01/06/2019 14:23:05 +00:00. (3e1903c1)
+2018-12-23T16:23:05.5335427+02:00 0HLJ8QDIOMV8F:00000003 [DBG] The access token scopes will be limited to the scopes requested by the client application: "openid, email, phone, profile, offline_access, roles". (da314d7b)
+2018-12-23T16:23:05.5336998+02:00 0HLJ8QDIOMV8F:00000003 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T16:23:05.5337406+02:00 0HLJ8QDIOMV8F:00000003 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T16:23:05.5337693+02:00 0HLJ8QDIOMV8F:00000003 [DBG] '"configuration"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T16:23:05.5337980+02:00 0HLJ8QDIOMV8F:00000003 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T16:23:05.5338278+02:00 0HLJ8QDIOMV8F:00000003 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2018-12-23T16:23:05.5343579+02:00 0HLJ8QDIOMV8F:00000003 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2018-12-23T16:23:05.5347740+02:00 0HLJ8QDIOMV8F:00000003 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2018-12-23T16:23:05.5487015+02:00 0HLJ8QDIOMV88:0000000A [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T16:28:38.1180482+02:00 0HLJ8QDIOMV94:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T16:31:07.9261698+02:00 0HLJ8QDIOMV95:00000015 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-12-23T16:31:15.8081867+02:00 0HLJ8QDIOMV9F:00000003 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)

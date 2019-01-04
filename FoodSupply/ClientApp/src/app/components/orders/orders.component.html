@@ -1,0 +1,16 @@
+<div class="container">
+  <header class="pageHeader">
+    <h3><i class="fa fa-shopping-cart fa-lg page-caption" aria-hidden="true"></i> {{'pageHeader.Orders' | translate}}</h3>
+  </header>
+
+  <div>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let o of orders; let i = index">
+        <span>
+          <b>{{'mainMenu.Set' | translate}}: </b>{{o.setName}}<br>
+          <b>{{'mainMenu.DateOfReceiving' | translate}}: </b>{{o.formatedDate}}
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>

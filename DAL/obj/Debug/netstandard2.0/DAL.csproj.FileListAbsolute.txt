@@ -1,0 +1,9 @@
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\bin\Debug\netstandard2.0\DAL.dll
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\bin\Debug\netstandard2.0\DAL.pdb
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.dll
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.pdb
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache

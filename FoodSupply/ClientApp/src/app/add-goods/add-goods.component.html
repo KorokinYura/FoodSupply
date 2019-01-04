@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-4">
+    <input type="text" [(ngModel)]="name" class="form-control" placeholder="{{'mainMenu.Name' | translate}}" />
+    <br />
+
+    <input type="text" [(ngModel)]="description" class="form-control" placeholder="{{'mainMenu.Description' | translate}}" />
+    <br />
+
+    <input type="text" [(ngModel)]="price" class="form-control" placeholder="{{'mainMenu.Price' | translate}}" />
+    <br />
+
+    <input type="text" [(ngModel)]="supplier" class="form-control" placeholder="{{'mainMenu.Supplier' | translate}}" />
+    <br />
+
+    <div>
+      <input type="button" (click)="createGoods()" class="btn btn-default" value="{{'mainMenu.Create' | translate}}" />
+    </div>
+  </div>
+</div>

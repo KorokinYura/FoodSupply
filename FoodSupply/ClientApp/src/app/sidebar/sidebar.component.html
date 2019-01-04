@@ -1,0 +1,27 @@
+<div class="widget" style="margin-left: -18%; margin-top: -5%; float:left">
+  <h3 class="widget-title">{{'mainMenu.Menu' | translate}}</h3>
+  <ul class="widget-list">
+    <li>
+      <a style="cursor: pointer" (click)="makeAnOrder()">{{'mainMenu.MakeAnOrder' | translate}}</a>
+    </li>
+    <li>
+      <a style="cursor: pointer" (click)="createSet()">{{'mainMenu.CreateSet' | translate}}</a>
+    </li>
+    <li [hidden]="!canAddGoods">
+      <a style="cursor: pointer" (click)="addGoods()">{{'mainMenu.AddGoods' | translate}}</a>
+    </li>
+  </ul>
+</div>
+
+
+<div id="content">
+  <div id="makeAnOrder">
+    <app-make-an-order></app-make-an-order>
+  </div>
+  <div id="createSet" hidden>
+    <app-create-set></app-create-set>
+  </div>
+  <div id="addGoods" hidden>
+    <app-add-goods></app-add-goods>
+  </div>
+</div>
