@@ -43,6 +43,15 @@ export class OrdersComponent {
       }, error => console.error(error));
   }
 
+  deleteOrder(id: string) {
+    this.http.delete(location.origin + "/api/SetOrders/" + id).subscribe(
+      obj => {
+        if (obj !== null)
+          console.log(obj);
+        location.reload();
+      }, error => console.error(error));
+  }
+
 
 
 

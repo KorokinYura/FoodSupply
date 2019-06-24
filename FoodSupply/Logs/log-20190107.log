@@ -1,0 +1,28 @@
+2019-01-07T11:53:20.8945345+02:00 0HLJKGN2ENRJQ:00000001 [INF] "Bearer" was not authenticated. Failure message: "Authentication failed because the access token was expired." (48071232)
+2019-01-07T11:53:21.0083709+02:00 0HLJKGN2ENRJQ:00000001 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2019-01-07T11:53:22.5492951+02:00 0HLJKGN2ENRJO:00000006 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"grant_type\": \"refresh_token\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2019-01-07T11:53:22.6788014+02:00 0HLJKGN2ENRJO:00000006 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2019-01-07T11:53:22.6791771+02:00 0HLJKGN2ENRJO:00000006 [INF] The token request was successfully validated. (d7e51e65)
+2019-01-07T11:53:24.6734983+02:00 0HLJKGN2ENRJO:00000006 [DBG] The default token request handling was skipped from user code. (72afae05)
+2019-01-07T11:53:24.8585639+02:00 0HLJKGN2ENRJO:00000006 [DBG] AuthenticationScheme: "ASOS" was successfully authenticated. (1805f3b3)
+2019-01-07T11:53:29.6273261+02:00 0HLJKGN2ENRJO:00000006 [INF] The expiration date of the refresh token '"698b4c87-3411-4283-b8c4-93141becc533"' was automatically updated: 01/21/2019 09:53:27 +00:00. (3e1903c1)
+2019-01-07T11:53:29.6665750+02:00 0HLJKGN2ENRJO:00000006 [DBG] The access token scopes will be limited to the scopes requested by the client application: "openid, email, phone, profile, offline_access, roles". (da314d7b)
+2019-01-07T11:53:29.7118326+02:00 0HLJKGN2ENRJO:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2019-01-07T11:53:29.7120614+02:00 0HLJKGN2ENRJO:00000006 [DBG] '"jobtitle"' was excluded from the access token claims. (ed8f369e)
+2019-01-07T11:53:29.7122457+02:00 0HLJKGN2ENRJO:00000006 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2019-01-07T11:53:29.7122925+02:00 0HLJKGN2ENRJO:00000006 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2019-01-07T11:53:29.7507930+02:00 0HLJKGN2ENRJO:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2019-01-07T11:53:29.7936187+02:00 0HLJKGN2ENRJO:00000006 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2019-01-07T11:53:29.8319040+02:00 0HLJKGN2ENRJR:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-01-07T11:54:56.8122543+02:00 0HLJKGN2ENRJV:00000002 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-01-07T11:55:34.1542394+02:00 0HLJKGN2ENRK1:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-01-07T12:03:27.0143450+02:00 0HLJKGT5RH9ML:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)

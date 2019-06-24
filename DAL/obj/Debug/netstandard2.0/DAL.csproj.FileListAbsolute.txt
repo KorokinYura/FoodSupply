@@ -6,4 +6,13 @@ D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodS
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.dll
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.pdb
+E:\Курсовая\FoodSupply\FoodSupply\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+E:\Курсовая\FoodSupply\FoodSupply\DAL\bin\Debug\netstandard2.0\DAL.dll
+E:\Курсовая\FoodSupply\FoodSupply\DAL\bin\Debug\netstandard2.0\DAL.pdb
+E:\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+E:\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+E:\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+E:\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+E:\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.dll
+E:\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.pdb
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache

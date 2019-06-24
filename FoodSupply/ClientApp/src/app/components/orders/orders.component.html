@@ -7,8 +7,12 @@
     <ul class="list-group">
       <li class="list-group-item" *ngFor="let o of orders; let i = index">
         <span>
-          <b>{{'mainMenu.Set' | translate}}: </b>{{o.setName}}<br>
-          <b>{{'mainMenu.DateOfReceiving' | translate}}: </b>{{o.formatedDate}}
+          <span class="col-md-4">
+            <b>{{'mainMenu.Set' | translate}}: </b>{{o.setName}}<br>
+            <b>{{'mainMenu.DateOfReceiving' | translate}}: </b>{{o.formatedDate}}
+          </span>
+          <a (click)="deleteOrder(o.id)"><span class="glyphicon glyphicon-trash btn btn-default" style="float:right; color: red; font-size: 130%"></span></a>
+          <br><br>
         </span>
       </li>
     </ul>

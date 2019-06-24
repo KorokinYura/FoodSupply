@@ -24,7 +24,7 @@ namespace FoodSupply.Controllers
 
         // GET: api/SetOrders
         [HttpGet]
-        public IEnumerable<Set> GetSetOrders()
+        public IEnumerable<Set> GetSetOrders()      // return all sets (?)
         {
             var sets = new List<Set>();
 

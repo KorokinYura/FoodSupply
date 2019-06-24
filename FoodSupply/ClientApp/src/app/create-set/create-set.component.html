@@ -5,10 +5,12 @@
     <ul class="list-group">
       <li class="list-group-item" *ngFor="let g of goods; let i = index">
         <!--<input type="checkbox" />-->
-        <label>&nbsp;&nbsp;{{goods[i].name}}</label>&nbsp;&nbsp;
+        <label>{{goods[i].name}} - {{goods[i].price}} ₴</label><br>
         <input type="number" [(ngModel)]="goods[i].quantity" value="{{goods[i].quantity}}" />
         <hr />
         <label>{{'mainMenu.Description' | translate}}:&nbsp;{{goods[i].description}}</label>
+        <br>
+        <label>{{'mainMenu.Supplier' | translate}}:&nbsp;{{goods[i].supplier}}</label>
       </li>
     </ul>
     <br />

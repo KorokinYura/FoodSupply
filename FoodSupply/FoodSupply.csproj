@@ -15,6 +15,7 @@
     <PackageProjectUrl>https://github.com/emonney/QuickApp</PackageProjectUrl>
     <Company>EBENMONNEY</Company>
     <Version>2.7.1</Version>
+    <UserSecretsId>b0738b48-44e4-4b71-aad8-a9475f783408</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

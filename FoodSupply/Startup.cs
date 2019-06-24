@@ -43,6 +43,10 @@ namespace FoodSupply
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")
                         .Replace("|DBFolder|", Environment.CurrentDirectory + "\\Data"),
                     b => b.MigrationsAssembly("FoodSupply"));
+
+                //options.UseSqlServer(Configuration.GetConnectionString("ServerConnection"),
+                //    b => b.MigrationsAssembly("FoodSupply"));
+
                 options.UseOpenIddict();
             });
 

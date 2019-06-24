@@ -24,3 +24,30 @@ D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodS
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.csproj.CopyComplete
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.dll
 D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.pdb
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.deps.json
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.runtimeconfig.json
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.runtimeconfig.dev.json
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.dll
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.pdb
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.Views.dll
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\FoodSupply.Views.pdb
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\DAL.dll
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.csprojAssemblyReference.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.csproj.CoreCompileInputs.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.RazorAssemblyInfo.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.RazorAssemblyInfo.cs
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.AssemblyInfoInputs.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.AssemblyInfo.cs
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.TagHelpers.input.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.TagHelpers.output.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.RazorCoreGenerate.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.RazorTargetAssemblyInfo.cache
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.RazorTargetAssemblyInfo.cs
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.Views.pdb
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.csproj.CopyComplete
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.dll
+E:\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\FoodSupply.pdb
+D:\NURE\3 курс\1 семестр\АРКПЗ\Курсовая\FoodSupply\FoodSupply\FoodSupply\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
